@@ -26,14 +26,4 @@ This Phase-1 service is the foundation we’ll later extend into Agentic AI micr
 - **Token**: `{ access_token, token_type }`
 
 ---
-
-## Quickstart
-
-### 1) Clone, venv, install
-```bash
-git clone https://github.com/<your-org>/agenticops-nexus.git
-cd agenticops-nexus
-python -m venv .venv
-source .venv/bin/activate           # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-cp .env.example .env
+We are maintaining the README for different phases under the folder docs
