@@ -10,8 +10,12 @@ class UserRead(BaseModel):
     username: str
     email: EmailStr
     class Config:
-        from_attributes = True
+        from_attributes = True  # for SQLModel compatibility
+
+class LoginRequest(BaseModel):
+    username: str
+    password: str
 
 class Token(BaseModel):
     access_token: str
-    token_type: str = "bearer"
+    token_type: str
